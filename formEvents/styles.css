@@ -1,0 +1,39 @@
+body{
+    background-color: #eee;
+}
+
+form{
+    
+    max-width:200px;
+    background-color: white;
+    margin:40px auto;
+    padding: 10px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.feedback{
+    border: 1px solid black;
+    height: auto;
+    width: 200px;;
+    padding: 3px;
+    margin: auto;
+    background-color: #eee;
+}
+
+.success{
+    border : 2px solid limegreen;
+    
+}
+
+.failure{
+    border : 2px solid red;
+}
+input:focus {
+         outline:none; 
+         background-color:darkgray;
+}
